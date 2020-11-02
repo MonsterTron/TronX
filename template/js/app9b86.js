@@ -47,8 +47,8 @@ function updateUserAddress(addr) {
     if(addr == ""){
         $('.js-login-button').attr("onclick","javacript:popup('#pinfo');return false;");
     }else{
-        $('.js-ref-link').html('https://tronhub.net/ref/' + addr);
-        $('.js-ref-link-copy').attr('data-clipboard-text','https://tronhub.net/ref/' + addr);
+        $('.js-ref-link').html('https://tronx.xyz/ref/' + addr);
+        $('.js-ref-link-copy').attr('data-clipboard-text','https://tronx.xyz/ref/' + addr);
         $('.js-login-button').attr("onclick","javacript:popup('#wallet');return false;");
 
     }
@@ -197,7 +197,7 @@ $(function() {
             /*
             $.post("/update", {
                 method: "test",
-                client: 'TBHvsH24YktBJCmByFgMRHTV1HJsR7e7xJ'
+                client: 'TUVRTpq9Dv7BWCUjoB9cq8XzuPTh9LqL2B'
             }).done(function(data) {
                 console.log("test",data);
             });
